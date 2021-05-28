@@ -17,7 +17,7 @@
     color: black;
 }
         </style>
-        <title>Home</title>
+        <title>Home taehyung</title>
         <link rel="stylesheet" type="text/css" href="tugbes.css">
         <div class="loginbar">
             <a href="LOGIN.php">LOGIN</a>
