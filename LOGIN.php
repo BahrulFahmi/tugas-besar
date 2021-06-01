@@ -18,9 +18,9 @@ if (isset($_POST['username']) && isset($_POST['password'])){
     } else if (empty($password)) {
         header ("location:LOGIN.php?error= password salah");
     } else {
-        $result = mysqli_query($conn, "SELECT* FROM gaptek where username='$username' and password='$password'");
+        $result = mysqli_query($conn, "SELECT* FROM login_admin where username='$username' and password='$password'");
         if(mysqli_num_rows($result)==1) {
-            header ("location:HOME.php");
+            header ("location:KATEGORI2.php");
         } else {
             header ("location:LOGIN.php?error= username dan password salah");
         }
@@ -35,7 +35,7 @@ if (isset($_POST['username']) && isset($_POST['password'])){
         <form style="padding:25px;text-align:center;background-color:black" action="" method="post">
             <p><input type="text" name="username" placeholder="Masukan Username" size="65" required /></p>
             <p><input type="password" name="password" placeholder="Masukan Password" size="65" required /></p>
-            <p> <button type="submit" class="btn">Submit</button></p>
+            <p> <button type="submit" class="btn">SUBMIT</button></p>
         </form>
     </div>
 </body>
