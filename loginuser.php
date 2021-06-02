@@ -34,7 +34,7 @@ if (isset($_POST['username']) && isset($_POST['password'])){
 <body>
     <div class="luar">
         <h2 style="text-align:center">DAFTAR</h2>
-        <form style="padding:25px;text-align:center;background-color:black" action="" method="post">
+        <form action="" method="post">
             <p><input type="text" name="username" placeholder="Masukan Username" size="65" required /></p>
             <p><input type="password" name="password" placeholder="Masukan Password" size="65" required /></p>
             <p> <button type="submit" class="btn">Submit</button></p>
