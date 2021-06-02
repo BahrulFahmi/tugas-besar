@@ -4,7 +4,7 @@
         <title>Home</title>
         <link rel="stylesheet" type="text/css" href="tugbes.css">
         <div class="topnav">
-            <a style="background-color:#ddd;color:black" href="#">Home</a>
+            <a style="color:black;background-color:#ddd" href="#">Home</a>
             <a href="KATEGORI.php">Kategori</a>
             <a href="KONSULTASI.php">Konsultasi</a>
             <a href="TENTANG tugas besar.html">Tentang</a>
@@ -16,12 +16,12 @@
     <body>
         <div style="display: block;">
             <p class="besar" style="margin-top: 300px;margin-left: 600px;">MORE</p>
-            <img src="laptop.jpg" style="background-size: cover;width: 100%;">
+            <img src="bg_home.jpg" style="background-size: cover;width: 100%;height"> <!--asus gx501-->
         </div>
         <p class="sedang" style="margin-top: 150px;margin-left: 250px;">MORE</p>
-        <div style="display: inline;"><img src="laptopkiri.jpg" style="margin-top: 10px;width: 49.5%;height: 50%;"></div>
+        <div style="display: inline;"><img src="bg_sedang1.jpg" style="margin-top: 10px;width: 49.5%;height: 50%;"></div> <!--acer predator helios 300-->
         <p class="sedang" style="display: inline;margin-top: 150px;margin-left: 250px;">MORE</p>
-        <div style="display: inline;"><img src="laptopkiri.jpg" style="margin-left: 10px;width: 49.5%;height: 50%;"></div>
+        <div style="display: inline;"><img src="bg_sedang2.jpg" style="margin-left: 10px;width: 49.5%;height: 50%;"></div>
         <p class="kecil" style="display: inline;margin-top: 100px;margin-left: 110px;">MORE</p>
         <div style="display: inline;"><img src="laptopbawah.jpg" style="width: 24.5%;height: 25%;margin-top: 4px;"></div>
         <p class="kecil" style="display: inline;margin-top: 100px;margin-left: 110px;">MORE</p>

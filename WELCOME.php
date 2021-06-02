@@ -4,6 +4,10 @@
 <title>WELCOME</title>
 </head>
 <style>
+    body {
+        background-image:url(bg_welcome.jpg);
+        background-size: cover; 
+    }
 a{
     border:3px solid;
     border-color:white;
@@ -33,11 +37,11 @@ p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;text-align:center
 }
 </style>
-<body style="background-color:#2980B9">
+<body>
 <div style="text-align:right">
     <p><b>WELCOME TO</b></p>
 </div>
-<img src="GAPTEK.ID.png" style="background-size: cover;width: 100%;margin-top:-180px">
+<img src="LOGOFIX.png" style="background-size: cover;width: 100%;margin-top:-180px">
 <div style="margin-top:-300px;margin-right:375px;text-align:right">
     <b><a style="margin-right:50px;display:inline" href="LOGIN.php">LOGIN</a></b>
     <b><a style="display:inline" href="loginuser.php">DAFTAR</a></b>
