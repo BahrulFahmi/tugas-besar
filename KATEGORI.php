@@ -1,63 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-<<<<<<< HEAD
         <link rel="stylesheet" type="text/css" href="tugas_besar.css">
-=======
-		<style>
-	.praktikum8{
-	margin-left:300px;
-}	
-.overlay{
-	width: 0;
-	height: 0;
-	overflow: hidden;
-	position: fixed;
-	top: 10%;
-	left: 0;
-	z-index: 9999;
-	text-align: center;
-}
-.overlay:target {
-	width: auto;
-	height: auto;
-	bottom: 0;
-	right: 0;
-	background: rgba(255,255,255. 1);
-	}
-.praktikum8 p{
-	color:black;
-	text-align:left;
-	max-width:800px;
-	margin: 10px 400px;
-	padding: 10px;
-	background:rgba(155,155,155,.9);
-	box-sizing: border-box;
-	border-radius:4px;
-}		
-.praktikum8 h4{
-	color:black;
-	text-align:center;
-	max-width:800px;
-	margin: 10px 400px;
-	padding: 10px;
-	background:rgba(155,155,155,.9);
-	box-sizing: border-box;
-	border-radius:4px;
-}
-.praktikum8 h3{
-	color:black;
-	text-align:center;
-	max-width:500px;
-	margin: auto;
-	padding: 10px;
-	background:rgba(155,155,155,.9);
-	box-sizing: border-box;
-	border-radius:4px;
-}
-</style>
-        <link rel="stylesheet" type="text/css" href="tugbes.css">
->>>>>>> 891533ee7ed67ef00aaf980bdbe774d6f0f72ace
         <title>Acer</title>
         <div class="topnav">
             <a href="HOMEFIX.php">Home</a>
@@ -88,15 +32,9 @@
 	<?php foreach($data as $row): ?>
 		<?php echo "<a href= '#modal-$i'> ";?>
 		<span class="card">
-<<<<<<< HEAD
 		<img src="img_tugbes/produk/<?=$row["img"] ?>" height="180" width="200" alt="<?=$i?>">
 		<h5 style="color:black;text-decoration:none;"><?=$row["judul"] ?></h5>
 		<h5 style="color:black;text-decoration:none;"><?=$row["harga"] ?></h5>
-=======
-		<img src="img_tugbes/produk/<?=$row["img"] ?>" height="180" width="200" alt="<?=$i?>"></b>
-		<h5><?=$row["judul"] ?></h5>
-		<h5><?=$row["harga"] ?></h5>
->>>>>>> 891533ee7ed67ef00aaf980bdbe774d6f0f72ace
 		</span>
 	<?php $i++; ?>	
 	<?php endforeach ?>
@@ -108,20 +46,12 @@
 	foreach ($data as $row){ 
 			global $img;
 					echo "<div class='overlay' id='modal-$i'>";
-<<<<<<< HEAD
 					echo "<img src='img_tugbes/produk/".$row["img"]."' height='300px' border='5px solid #000000'>";
-=======
-					echo "<img src='img_tugbes/produk/".$row["img"]."' height='300px' border='5px solid #fff'>";
->>>>>>> 891533ee7ed67ef00aaf980bdbe774d6f0f72ace
 					// echo "<h3>$judul1[$i]</h3>";
 					echo  "<h3>".$row["judul"]."</h3>";
 					echo "<p>".$row["spek"]."</p>";
 					echo "<h4>".$row["harga"]."</h4>";
-<<<<<<< HEAD
 					echo "<a href='#'><button>Kembali</button></a>";
-=======
-					echo "<a href='#' ><button>Kembali</button></a>";
->>>>>>> 891533ee7ed67ef00aaf980bdbe774d6f0f72ace
 					
 		$i++;
 
