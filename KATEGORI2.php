@@ -79,6 +79,11 @@
         <title>Acer</title>
  
          <div class="topnav">
+<<<<<<< HEAD
+=======
+            <a href="KATEGORI2.php">Home</a>
+          <!--   <a style="background-color:#ddd;color:black" href="#">Kategori</a> -->
+>>>>>>> 891533ee7ed67ef00aaf980bdbe774d6f0f72ace
 	            <div class="dropdown">
 	            	<a>Kategori</a>
 	            		<div class="dropdownchild">
@@ -115,21 +120,35 @@
 		<!-- <a href="#modal-$i"> -->
 		<span class="card">
 		<img src="img_tugbes/produk/<?=$row["img"] ?>" height="180" width="200" alt="<?=$i?>"></b></td>
+<<<<<<< HEAD
 		<h5 style="color:black;text-decoration:none;"><?=$row["judul"] ?></h5>
 		<h5 style="color:black;text-decoration:none;"><?=$row["harga"] ?></h5>
+=======
+
+		<h5><?=$row["judul"] ?></h5>
+		<h5><?=$row["harga"] ?></h5>
+>>>>>>> 891533ee7ed67ef00aaf980bdbe774d6f0f72ace
 		</span>
 		</a>
 	<?php $i++; ?>	
 	<?php endforeach ?>
 	
+<<<<<<< HEAD
 	<h2 style="margin-left:700px;margin-top:-260px;"><a style="color:black;text-decoration:none;" class="aw" href="tambah.php" class="btn btn-sm btn-success right">Tambah Kategori</a></h2>
+=======
+	<h2 style="margin-top:310px; "><a class="aw" href="tambah.php" class="btn btn-sm btn-success right">Tambah Kategori</a></h2>
+>>>>>>> 891533ee7ed67ef00aaf980bdbe774d6f0f72ace
 	
 	<?php
 	$i=1; 
 	foreach ($data as $row){ 
 			global $img;
 					echo "<div class='overlay' id='modal-$i'>";
+<<<<<<< HEAD
 					echo "<img src='img_tugbes/produk/".$row["img"]."' height='300px' border='5px solid black'>";
+=======
+					echo "<img src='img_tugbes/produk/".$row["img"]."' height='300px' border='5px solid #fff'>";
+>>>>>>> 891533ee7ed67ef00aaf980bdbe774d6f0f72ace
 					// echo "<h3>$judul1[$i]</h3>";
 					echo  "<h3>".$row["judul"]."</h3>";
 					echo "<p>".$row["spek"]."</p>";
@@ -143,5 +162,14 @@
 
 	 ?>
 </div>
+<<<<<<< HEAD
+=======
+
+	
+
+	
+	
+
+>>>>>>> 891533ee7ed67ef00aaf980bdbe774d6f0f72ace
     </body>
 </html>
