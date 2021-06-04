@@ -50,7 +50,7 @@
 	border-radius:4px;
 }
 </style>
-        <link rel="stylesheet" type="text/css" href="tugbes.css">
+        <link rel="stylesheet" type="text/css" href="kategori.css">
         <title>HP</title>
         <div class="topnav">
             <a href="HOMEFIX.php">Home</a>

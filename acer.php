@@ -75,12 +75,11 @@
 }
 
 </style>
-        <link rel="stylesheet" type="text/css" href="tugbes.css">
+        <link rel="stylesheet" type="text/css" href="kategori.css">
         <title>Acer</title>
  
          <div class="topnav">
-            <a href="KATEGORI2.php">Home</a>
-          <!--   <a style="background-color:#ddd;color:black" href="#">Kategori</a> -->
+            <a href="KATEGORI2.php">Kategori</a>
 	            <div class="dropdown">
 	            	<a>Kategori</a>
 	            		<div class="dropdownchild">

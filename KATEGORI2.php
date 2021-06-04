@@ -75,7 +75,7 @@
 }
 
 </style>
-        <link rel="stylesheet" type="text/css" href="tugbes.css">
+        <link rel="stylesheet" type="text/css" href="kategori.css">
         <title>Acer</title>
  
          <div class="topnav">
@@ -113,10 +113,10 @@
 	<?php foreach($data as $row): ?>
 		<?php echo "<a href= '#modal-$i'> ";?>
 		<!-- <a href="#modal-$i"> -->
-		<span class="card">
+		<span style="margin-top:275px;" class="card">
 		<img src="img_tugbes/produk/<?=$row["img"] ?>" height="180" width="200" alt="<?=$i?>"></b></td>
-		<h5 style="color:black;text-decoration:none;"><?=$row["judul"] ?></h5>
-		<h5 style="color:black;text-decoration:none;"><?=$row["harga"] ?></h5>
+		<h5 style="color:#ddd;text-decoration:none;"><?=$row["judul"] ?></h5>
+		<h5 style="color:#ddd;text-decoration:none;"><?=$row["harga"] ?></h5>
 		</span>
 		</a>
 	<?php $i++; ?>	
