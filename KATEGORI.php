@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="tugas_besar.css">
+        <link rel="stylesheet" type="text/css" href="kategori.css">
         <title>Acer</title>
         <div class="topnav">
             <a href="HOMEFIX.php">Home</a>
@@ -33,8 +33,8 @@
 		<?php echo "<a href= '#modal-$i'> ";?>
 		<span class="card">
 		<img src="img_tugbes/produk/<?=$row["img"] ?>" height="180" width="200" alt="<?=$i?>">
-		<h5 style="color:black;text-decoration:none;"><?=$row["judul"] ?></h5>
-		<h5 style="color:black;text-decoration:none;"><?=$row["harga"] ?></h5>
+		<h5 style="color:#ddd;text-decoration:none;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><?=$row["judul"] ?></h5>
+		<h5 style="color:#ddd;text-decoration:none;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><?=$row["harga"] ?></h5>
 		</span>
 	<?php $i++; ?>	
 	<?php endforeach ?>
@@ -46,7 +46,7 @@
 	foreach ($data as $row){ 
 			global $img;
 					echo "<div class='overlay' id='modal-$i'>";
-					echo "<img src='img_tugbes/produk/".$row["img"]."' height='300px' border='5px solid #000000'>";
+					echo "<img src='img_tugbes/produk/".$row["img"]."' height='300px' border='5px solid black'>";
 					// echo "<h3>$judul1[$i]</h3>";
 					echo  "<h3>".$row["judul"]."</h3>";
 					echo "<p>".$row["spek"]."</p>";
