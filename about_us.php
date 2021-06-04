@@ -31,11 +31,18 @@
             <td><img src="saidatun.jpg" alt="" style="width: 400px;height: 300px;"></td>
         </tr>
     </table> -->
-    <h1 style="display:inline">Our Team</h1>
+    <br>
+    <br>
+    <h1>Our Team</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div style="display: inline-block; height:45%; width: 100%;">
     <div style="display: inline;"><img src="fahmi.jpg" style="width: 20%;height: 45%;margin-top: 4px;"></div>
-    <div style="display: inline;"><img src="zulfian.jpg" style="margin-left: 330px;width: 20%;height: 45%;"></div>
-    <div style="display: inline;"><img src="saidatun.jpg" style="margin-left: 330px;width: 20%;height: 45%;"></div>
+    <div style="display: inline;"><img src="zulfian.jpg" style="margin-left: 280px;width: 20%;height: 45%;"></div>
+    <div style="display: inline;"><img src="saidatun.jpg" style="margin-left: 280px;width: 20%;height: 45%;"></div>
     </div>
     <!-- <div style="display: inline; "><img src="bunga.jpg" style="width: 24.5%;height: 25%;margin-top: 4px;"></div>
         <div style="display: inline;"><img src="bunga.jpg" style="margin-left: 4px;width: 24.5%;height: 25%;"></div>

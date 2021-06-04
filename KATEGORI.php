@@ -7,7 +7,7 @@
             <a href="HOMEFIX.php">Home</a>
             <a style="background-color:#ddd;color:black" href="KATEGORI.php">Kategori</a>
             <a href="KONSULTASI.php">Konsultasi</a>
-            <a href="TENTANG tugas besar.html">Tentang</a>
+            <a href="about_us.php">Tentang</a>
          </div>
          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
@@ -46,7 +46,7 @@
 	foreach ($data as $row){ 
 			global $img;
 					echo "<div class='overlay' id='modal-$i'>";
-					echo "<img src='img_tugbes/produk/".$row["img"]."' height='300px' border='5px solid black'>";
+					echo "<img src='img_tugbes/produk/".$row["img"]."'height=300px border=5px solid black>";
 					// echo "<h3>$judul1[$i]</h3>";
 					echo  "<h3>".$row["judul"]."</h3>";
 					echo "<p>".$row["spek"]."</p>";

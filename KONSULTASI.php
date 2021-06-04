@@ -50,7 +50,7 @@ echo "
             <a href="HOMEFIX.php">Home</a>
             <a href="KATEGORI.php">Kategori</a>
             <a style="background-color:#ddd;color:black" href="#">Konsultasi</a>
-            <a href="TENTANG tugas besar.html">Tentang</a>
+            <a href="about_us.php">Tentang</a>
          </div>
          <br>
          <link rel="stylesheet" type="text/css" href="tugbes.css">
