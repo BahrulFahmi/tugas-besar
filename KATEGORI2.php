@@ -90,6 +90,7 @@
 	            </div>
             <a href="KONSULTASI2.php">Konsultasi</a>
             <a href="TENTANG tugas besar.html">Tentang</a>
+			<a style="float:right" href="tambah.php"><i class="fas fa-plus-square"></i>&nbsp;Tambah Kategori</a>
          </div>
          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
@@ -122,7 +123,6 @@
 	<?php $i++; ?>	
 	<?php endforeach ?>
 	
-	<h2 style="margin-left:700px;margin-top:-260px;"><a style="color:black;text-decoration:none;" class="aw" href="tambah.php" class="btn btn-sm btn-success right">Tambah Kategori</a></h2>
 	
 	<?php
 	$i=1; 
