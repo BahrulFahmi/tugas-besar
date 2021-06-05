@@ -79,7 +79,6 @@
         <title>Acer</title>
  
          <div class="topnav">
-            <a href="KATEGORI2.php">Kategori</a>
 	            <div class="dropdown">
 	            	<a>Kategori</a>
 	            		<div class="dropdownchild">
@@ -90,7 +89,6 @@
 	            		</div>	
 	            </div>
             <a href="KONSULTASI2.php">Konsultasi</a>
-            <a href="TENTANG tugas besar.html">Tentang</a>
          </div>
          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"

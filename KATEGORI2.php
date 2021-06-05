@@ -15,8 +15,11 @@
 	            		</div>	
 	            </div>
             <a href="KONSULTASI2.php">Konsultasi</a>
+<<<<<<< HEAD
+=======
             <a href="TENTANG tugas besar.html">Tentang</a>
 			<a style="float:right" href="tambah.php"><i class="fas fa-plus-square"></i>&nbsp;Tambah Kategori</a>
+>>>>>>> 77cb26bf6e79100b63ad2462cc2c508596a4f380
          </div>
          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
@@ -28,9 +31,6 @@
         <?php
          require 'function.php';
          $data = query("SELECT * FROM kategori WHERE merk='Acer'");
-         
-         // $img = ['','1.jpg', '2.jpg' ,'3.jpg', '4.png','5.png', '6.jpg','7.jpg','8.jpg','9.jpg','10.jpg','11.jpg','12.png','13.jpg','14.jpg'];
-
          ?>
       
 
