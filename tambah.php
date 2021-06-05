@@ -53,9 +53,7 @@ echo "
 				<li >
 					<input type="text" name="harga" id="harga" placeholder="harga" required>
 				</li>
-				<!-- <li >
-					<input type="text" name="spek" id="spek" placeholder="spek" required>
-				</li> -->
+				
 				<li>
 					<textarea rows="3" placeholder="Spek" name="spek"></textarea>
 				</li>
@@ -63,8 +61,6 @@ echo "
 				<input type="file" name="img" id="img" >
 				</li>
 				<li ><button type="submit" name="submit">Tambah</button></li>
-
-
 			</ul>
 
 		</form>

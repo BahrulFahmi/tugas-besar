@@ -47,7 +47,6 @@
 			global $img;
 					echo "<div class='overlay' id='modal-$i'>";
 					echo "<img src='img_tugbes/produk/".$row["img"]."' height='300px' border='5px solid black'>";
-					// echo "<h3>$judul1[$i]</h3>";
 					echo  "<h3>".$row["judul"]."</h3>";
 					echo "<p>".$row["spek"]."</p>";
 					echo "<h4>".$row["harga"]."</h4>";
