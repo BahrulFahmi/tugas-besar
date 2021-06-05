@@ -26,7 +26,7 @@ echo "
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tambah Produk</title>
+	<title>Tambahkan Produk</title>
 	<link rel="stylesheet" href="tambah.css">
 		
 </head>
