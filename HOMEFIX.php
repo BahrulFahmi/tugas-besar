@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Home</title>
-        <link rel="stylesheet" type="text/css" href="tugas_besar.css">
+        <link rel="stylesheet" type="text/css" href="home.css">
         <div class="topnav">
             <a style="color:black;background-color:#ddd" href="#">Home</a>
             <a href="KATEGORI.php">Kategori</a>

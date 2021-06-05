@@ -1,56 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<style>
-	.praktikum8{
-	margin-left:300px;
-}	
-.overlay{
-	width: 0;
-	height: 0;
-	overflow: hidden;
-	position: fixed;
-	top: 10%;
-	left: 0;
-	z-index: 9999;
-	text-align: center;
-}
-.overlay:target {
-	width: auto;
-	height: auto;
-	bottom: 0;
-	right: 0;
-	background: rgba(255,255,255. 1);
-	}
-.praktikum8 p{
-	text-align:left;
-	max-width:800px;
-	margin: 10px 400px;
-	padding: 10px;
-	background:rgba(155,155,155,.9);
-	box-sizing: border-box;
-	border-radius:4px;
-}		
-.praktikum8 h4{
-	text-align:center;
-	max-width:800px;
-	margin: 10px 400px;
-	padding: 10px;
-	background:rgba(155,155,155,.9);
-	box-sizing: border-box;
-	border-radius:4px;
-}
-.praktikum8 h3{
-	text-align:center;
-	max-width:500px;
-	margin: auto;
-	padding: 10px;
-	background:rgba(155,155,155,.9);
-	box-sizing: border-box;
-	border-radius:4px;
-}
-</style>
-        <link rel="stylesheet" type="text/css" href="kategori.css">
+        <link rel="stylesheet" type="text/css" href="produk.css">
         <title>Asus</title>
         <div class="topnav">
             <a href="HOMEFIX.php">Home</a>
@@ -76,7 +27,7 @@
          // $img = ['','1.jpg', '2.jpg' ,'3.jpg', '4.png','5.png', '6.jpg','7.jpg','8.jpg','9.jpg','10.jpg','11.jpg','12.png','13.jpg','14.jpg'];
          ?>
      
-<div class="praktikum8">
+<div class="produk">
 		
 		<?php $i=1; ?>
 	<?php foreach($data as $row): ?>
@@ -99,7 +50,7 @@
 	foreach ($data as $row){ 
 			global $img;
 					echo "<div class='overlay' id='modal-$i'>";
-					echo "<img src='img_tugbes/produk/".$row["img"]."' height='300px' border='5px solid #fff'>";
+					echo "<img class='imgoverlay' src='img_tugbes/produk/".$row["img"]."' height='300px'>";
 					// echo "<h3>$judul1[$i]</h3>";
 					echo  "<h3>".$row["judul"]."</h3>";
 					echo "<p>".$row["spek"]."</p>";

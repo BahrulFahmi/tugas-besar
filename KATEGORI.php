@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="kategori.css">
+    <style>
+        .imgoverlay {
+	border: 5px solid black;
+}
+    </style>
+        <link rel="stylesheet" type="text/css" href="produk.css">
         <title>Acer</title>
         <div class="topnav">
             <a href="HOMEFIX.php">Home</a>
@@ -26,8 +31,7 @@
          $data = query("SELECT * FROM kategori WHERE merk='acer'");
          ?>
      
-<div class="praktikum8">
-		
+<div class="produk">
 		<?php $i=1; ?>
 	<?php foreach($data as $row): ?>
 		<?php echo "<a href= '#modal-$i'> ";?>
@@ -46,8 +50,7 @@
 	foreach ($data as $row){ 
 			global $img;
 					echo "<div class='overlay' id='modal-$i'>";
-					echo "<img src='img_tugbes/produk/".$row["img"]."'height=300px border=5px solid black>";
-					// echo "<h3>$judul1[$i]</h3>";
+					echo "<img class='imgoverlay' src='img_tugbes/produk/".$row["img"]."'height=300px>";
 					echo  "<h3>".$row["judul"]."</h3>";
 					echo "<p>".$row["spek"]."</p>";
 					echo "<h4>".$row["harga"]."</h4>";
