@@ -36,8 +36,8 @@
 		<span class="card">
 		<img src="img_tugbes/produk/<?=$row["img"] ?>" height="180" width="200" alt="<?=$i?>"></b></td>
 
-		<h5><?=$row["judul"] ?></h5>
-		<h5><?=$row["harga"] ?></h5>
+		<h5 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><?=$row["judul"] ?></h5>
+		<h5 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><?=$row["harga"] ?></h5>
 		</span>
 		</a>
 	<?php $i++; ?>	

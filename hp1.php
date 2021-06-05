@@ -49,8 +49,7 @@
 	foreach ($data as $row){ 
 			global $img;
 					echo "<div class='overlay' id='modal-$i'>";
-					echo "<img class='imgoverlay' src='img_tugbes/produk/".$row["img"]."' height='300px' border='5px solid #fff'>";
-					// echo "<h3>$judul1[$i]</h3>";
+					echo "<img class='imgoverlay' src='img_tugbes/produk/".$row["img"]."' height='300px'>";
 					echo  "<h3>".$row["judul"]."</h3>";
 					echo "<p>".$row["spek"]."</p>";
 					echo "<h4>".$row["harga"]."</h4>";

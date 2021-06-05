@@ -15,10 +15,10 @@
     </head>
     <body>
         <div style="display: block;">
-            <p class="besar" style="margin-top: 300px;margin-left: 600px;">MORE</p>
+            <a href="asus1.php#modal-11" class="besar" style="margin-top: 300px;margin-left: 600px;text-decoration:none;">MORE</a>
             <img src="bg_home.jpg" style="background-size: cover;width: 100%;height"> <!--asus gx501-->
         </div>
-        <p class="sedang" style="margin-top: 150px;margin-left: 250px;">MORE</p>
+        <a href="KATEGORI.php#modal-11" class="sedang" style="margin-top: 150px;margin-left: 250px;text-decoration:none;">MORE</a>
         <div style="display: inline;"><img src="bg_sedang1.jpg" style="margin-top: 10px;width: 49.5%;height: 50%;"></div> <!--acer predator helios 300-->
         <p class="sedang" style="display: inline;margin-top: 150px;margin-left: 250px;">MORE</p>
         <div style="display: inline;"><img src="bg_sedang2.jpg" style="margin-left: 10px;width: 49.5%;height: 50%;"></div> <!--lenovo legion 7i-->
