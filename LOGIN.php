@@ -88,7 +88,7 @@ if (isset($_POST['username']) && isset($_POST['password'])){
     } else {
         $result = mysqli_query($conn, "SELECT* FROM login_admin where username='$username' and password='$password'");
         if(mysqli_num_rows($result)==1) {
-            header ("location:KATEGORI2.php");
+            header ("location:acer.php");
         } else {
             header ("location:LOGIN.php?error= username dan password salah");
         }
