@@ -27,7 +27,7 @@ display: inline;
 	            <div class="dropdown">
 	            	<a>Kategori</a>
 	            		<div class="dropdownchild">
-	            			<a href="KATEGORI2.php">Acer</a>
+	            			<a href="acer.php">Acer</a>
 				            <a style="background-color:#ddd;color:black" href="asus.php">Asus</a>
 				            <a href="hp.php">HP</a>
 				            <a href="lenovo.php">Lenovo</a>

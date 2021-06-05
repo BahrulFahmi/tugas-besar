@@ -60,6 +60,16 @@
                  font-size: 18px;
                  cursor: pointer;
              }
+             .back {
+                 width: 100;
+                 background: none;
+                 border:  2px solid;
+                 color: black;
+                 padding: 5px;
+                 font-size: 18px;
+                 cursor: pointer;
+                 text-decoration:none;
+             }
 </style>
 <?php
 if (!empty($_POST)) {
@@ -103,6 +113,7 @@ if (!empty($_POST)) {
                 <input type="password" name="password" placeholder="Password" size="65" required />
             </div>
             <button type="submit" class="btn">SUBMIT</button>
+            <a href="WELCOME.php" type="button" class="back">BACK</a>
         </form>
     </div>
 </body>
