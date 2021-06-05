@@ -9,7 +9,7 @@
             margin: 0%;
             padding: 0%;
             font-family: sans-serif;
-            background: url(bg_loginadmin.jpg) no-repeat;
+            background: url(bg_daftar.jpg) no-repeat;
             background-size: cover;
         }
         .login-box{

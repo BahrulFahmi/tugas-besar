@@ -27,46 +27,44 @@ echo "
 <html>
 <head>
 	<title>Tambah Produk</title>
+	<link rel="stylesheet" href="tambah.css">
 		
 </head>
 <body>
 
 
-	<div >
-
-		
+	<div class="tambah">
 		<form action="" method="post" enctype="multipart/form-data">
-			
-			<ul >
-				<li ><h1>Tambah Produk</h1></li>
-				<li >
-					<input type="text" name="judul" id="judul" placeholder="Judul" required>
-				</li>
-				<li >
+		<h1>Tambah Produk</h1>
+		<div class="bigproduk">
+				<div class="item">
+					<i class="fas fa-laptop"></i>
+					<input type="text" name="judul" id="judul" placeholder="Nama Laptop" required>
+				</div>
+				<div class="item">
+					<i class="fas fa-store"></i>
 					<select name="merk" required="">
 						<option value="Acer">Acer</option>
 						<option value="Asus">Asus</option>
 						<option value="HP">HP</option>
 						<option value="Lenovo">Lenovo</option>
 					</select>
-				</li>
-				<li >
-					<input type="text" name="harga" id="harga" placeholder="harga" required>
-				</li>
-				<!-- <li >
-					<input type="text" name="spek" id="spek" placeholder="spek" required>
-				</li> -->
-				<li>
-					<textarea rows="3" placeholder="Spek" name="spek"></textarea>
-				</li>
-				<li>
-				<input type="file" name="img" id="img" >
-				</li>
-				<li ><button type="submit" name="submit">Tambah</button></li>
-
-
-			</ul>
-
+				</div>
+				<div class="item">
+					<i class="fas fa-money-bill-alt"></i>
+					<input type="text" name="harga" id="harga" placeholder="Harga" required>
+				</div>
+				<div class="item">
+					<i class="fas fa-list-ul"></i>
+					<textarea rows="3" placeholder="Spesifikasi" name="spek"></textarea>
+				</div>
+				<div class="item">
+					<i class="far fa-images"></i>
+					<input type="file" name="img" id="img">
+				</div>
+				<button type="submit" class="btn">Tambahkan</button>
+				<a href="acer.php" type="button" class="btn">Kembali</a>
+			</div>
 		</form>
 	</div>
 
