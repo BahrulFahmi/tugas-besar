@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+	<style>
+	.dropdown{
+	position: relative;
+	display: inline;
+
+}
+.dropdownchild{
+	display: none;
+	min-width: 200px;
+
+	
+
+}
+.dropdownchild a {
+	
+	padding: 20px;
+	text-decoration: none;
+	display: inline;
+}
+.dropdown:hover .dropdownchild{
+	display: inline;
+	
+
+}
+
+	</style>
         <link rel="stylesheet" type="text/css" href="produk.css">
         <title>Acer</title>
  
@@ -15,11 +41,7 @@
 	            		</div>	
 	            </div>
             <a href="KONSULTASI2.php">Konsultasi</a>
-<<<<<<< HEAD
-=======
-            <a href="TENTANG tugas besar.html">Tentang</a>
 			<a style="float:right" href="tambah.php"><i class="fas fa-plus-square"></i>&nbsp;Tambah Kategori</a>
->>>>>>> 77cb26bf6e79100b63ad2462cc2c508596a4f380
          </div>
          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
@@ -39,7 +61,6 @@
 		<?php $i=1; ?>
 	<?php foreach($data as $row): ?>
 		<?php echo "<a href= '#modal-$i'> ";?>
-		<!-- <a href="#modal-$i"> -->
 		<span style="margin-top:275px;" class="card">
 		<img src="img_tugbes/produk/<?=$row["img"] ?>" height="180" width="200" alt="<?=$i?>"></b></td>
 		<h5 style="color:#ddd;text-decoration:none;"><?=$row["judul"] ?></h5>

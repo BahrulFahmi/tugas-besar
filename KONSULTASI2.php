@@ -47,7 +47,7 @@ echo "
             
         </style>
         <div class="topnav">
-            <a href="KATEGORI2.php">Kategori</a>
+            <a href="acer.php">Kategori</a>
             <a style="background-color:#ddd;color:black" href="#">Konsultasi</a>
          </div>
          <br>
