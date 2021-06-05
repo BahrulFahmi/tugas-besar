@@ -75,7 +75,7 @@
 }
 
 </style>
-        <link rel="stylesheet" type="text/css" href="kategori.css">
+        <link rel="stylesheet" type="text/css" href="produk.css">
         <title>Acer</title>
  
          <div class="topnav">
@@ -103,7 +103,7 @@
          ?>
       
 
-	<div class="praktikum8">
+	<div class="produk">
 		
 		<?php $i=1; ?>
 	<?php foreach($data as $row): ?>

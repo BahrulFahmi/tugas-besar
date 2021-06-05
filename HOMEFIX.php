@@ -2,12 +2,12 @@
 <html>
     <head>
         <title>Home</title>
-        <link rel="stylesheet" type="text/css" href="tugas_besar.css">
+        <link rel="stylesheet" type="text/css" href="home.css">
         <div class="topnav">
             <a style="color:black;background-color:#ddd" href="#">Home</a>
             <a href="KATEGORI.php">Kategori</a>
             <a href="KONSULTASI.php">Konsultasi</a>
-            <a href="TENTANG tugas besar.html">Tentang</a>
+            <a href="about_us.php">Tentang</a>
          </div>
          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
