@@ -15,20 +15,20 @@
     </head>
     <body>
         <div style="display: block;">
-            <a href="asus1.php#modal-11" class="besar" style="margin-top: 300px;margin-left: 600px;text-decoration:none;">MORE</a>
+            <a href="asus1.php#modal-10" class="besar" style="margin-top: 300px;margin-left: 600px;text-decoration:none;">MORE</a>
             <img src="bg_home.jpg" style="background-size: cover;width: 100%;height"> <!--asus gx501-->
         </div>
-        <a href="KATEGORI.php#modal-11" class="sedang" style="margin-top: 150px;margin-left: 250px;text-decoration:none;">MORE</a>
+        <a href="KATEGORI.php#modal-9" class="sedang" style="margin-top: 150px;margin-left: 250px;text-decoration:none;">MORE</a>
         <div style="display: inline;"><img src="bg_sedang1.jpg" style="margin-top: 10px;width: 49.5%;height: 50%;"></div> <!--acer predator helios 300-->
-        <p class="sedang" style="display: inline;margin-top: 150px;margin-left: 250px;">MORE</p>
+        <a href="lenovo1.php#modal-9" class="sedang" style="display: inline;margin-top: 150px;margin-left: 250px;text-decoration:none;">MORE</a>
         <div style="display: inline;"><img src="bg_sedang2.jpg" style="margin-left: 10px;width: 49.5%;height: 50%;"></div> <!--lenovo legion 7i-->
-        <p class="kecil" style="display: inline;margin-top: 85px;margin-left: 110px;">MORE</p>
+        <a href="asus1.php#modal-5" class="kecil" style="display: inline;margin-top: 85px;margin-left: 110px;text-decoration:none;">MORE</a>
         <div style="display: inline;"><img src="bg_kecil1.jpg" style="width: 24.5%;height: 25%;margin-top: 10px;"></div> <!--asus vivobook M409-->
-        <p class="kecil" style="display: inline;margin-top: 85px;margin-left: 110px;">MORE</p>
+        <a href="KATEGORI.php#modal-10" class="kecil" style="display: inline;margin-top: 85px;margin-left: 110px;text-decoration:none;">MORE</a>
         <div style="display: inline;"><img src="bg_kecil2.jpg" style="margin-left: 4px;width: 24.5%;height: 25%;"></div> <!--acer aspire 5-->
-        <p class="kecil" style="display: inline;margin-top: 85px;margin-left: 120px;">MORE</p>
+        <a href="lenovo1.php#modal-10" class="kecil" style="display: inline;margin-top: 85px;margin-left: 120px;text-decoration:none;">MORE</a>
         <div style="display: inline;"><img src="bg_kecil3.jpg" style="margin-left: 8px;width: 24.5%;height: 25%;"></div> <!--lenovo thinkbook 14-IML-->
-        <p class="kecil" style="display: inline;margin-top: 85px;margin-left: 110px;">MORE</p>
+        <a href="hp1.php#modal-10" class="kecil" style="display: inline;margin-top: 85px;margin-left: 110px;text-decoration:none;">MORE</a>
         <div style="display: inline;"><img src="bg_kecil4.jpg" style="margin-left: 4px;width: 24.5%;height: 25%;"></div> <!--hp pavilion 14-CE3013TX-->
     </body>
     <footer style="width:97.15%;margin-top:10px;" class="footer">
